@@ -44,7 +44,7 @@ $animdelay: 0.15;
 	font-size: calculateRem($size);
 }
 
--- // usage // --
+--- // usage // ---
 
 p {
 	@include font-size(14px)
@@ -67,7 +67,7 @@ p {
 	}
 }
 
--- // usage // --
+--- // usage // ---
 
 .class {
 	@extend %clearfix;
